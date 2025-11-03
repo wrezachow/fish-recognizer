@@ -4,22 +4,29 @@ layout: page
 ---
 
 # An Image Recognizer
-Can classify 10 types of fish<br/>
-Types:<br/>
-<br/>
-1. Hilsa Fish
-2. Rohu Fish
-3. Catla Fish
-4. Barramundi Fish
-5. Mrigal Carp Fish
-6. Indian Featherback Fish
-7. Salmon Fish
-8. Pabda Catfish
-9. Silver Pomfret
-10. Bombay Duck Fish
+This image is able to specify 10 specific types of fishes that can be found all over the world
 
 <p>
   <a href="fish_recognizer.html">
     Try the Fish Recognizer
   </a>
 </p>
+
+<br/>
+
+## The Overview of types of fishes
+## 🐟 Fish Types Overview
+
+| Image | Name | Description |
+|:------:|:-----|:-------------|
+| <img src="fishies/Hilsa.jpg" width="160"/> | **Hilsa Fish** | National fish of Bangladesh; rich, oily flavor, prized for traditional dishes. |
+| <img src="fishies/Rohu.png" width="160"/> | **Rohu Fish** | Common South Asian carp; mild flavor and tender flesh. |
+| <img src="fishies/Catla.jpeg" width="160"/> | **Catla Fish** | Large freshwater fish with broad head and white, flaky meat. |
+| <img src="fishies/Barramundi.jpeg" width="160"/> | **Barramundi Fish** | Found in Indo-Pacific waters; firm texture and buttery taste. |
+| <img src="fishies/Mrigal.jpeg" width="160"/> | **Mrigal Carp Fish** | Popular aquaculture species; lean meat with subtle flavor. |
+| <img src="fishies/Indian Featherback.jpg" width="160"/> | **Indian Featherback Fish** | Elongated body and delicate flesh; used in spicy curries. |
+| <img src="fishies/Salmon.jpg" width="160"/> | **Salmon Fish** | Rich in omega-3; pink meat and distinctive flavor. |
+| <img src="fishies/pabda" width="160"/> | **Pabda Catfish** | Small, soft-boned fish known for its smooth, buttery texture. |
+| <img src="fishies/Silver Pomfret.jpg" width="160"/> | **Silver Pomfret** | Flat, silvery marine fish; mild and tender, prized in Asia. |
+| <img src="Fishies/Loitta.jpg" width="160"/> | **Bombay Duck Fish** | Despite its name, it’s a fish; salty, aromatic, often sun-dried. |
+

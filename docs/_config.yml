@@ -1,6 +1,6 @@
 remote_theme:  daviddarnes/alembic@main
 plugins:
-- jekyll-remote-remote-theme
+
 
 title: fish-recognizer
 description: Recognizes 10 different types of fishes
