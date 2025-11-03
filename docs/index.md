@@ -25,7 +25,7 @@ This image is able to specify 10 specific types of fishes that can be found all 
 | <img src="fishies/Barramundi.jpeg" width="160"/> | **Barramundi Fish** | Found in Indo-Pacific waters; firm texture and buttery taste. |
 | <img src="fishies/Mrigal.jpeg" width="160"/> | **Mrigal Carp Fish** | Popular aquaculture species; lean meat with subtle flavor. |
 | <img src="fishies/Indian Featherback.jpg" width="160"/> | **Indian Featherback Fish** | Elongated body and delicate flesh; used in spicy curries. |
-| <img src="fishies/Salmon.jpg" width="160"/> | **Salmon Fish** | Rich in omega-3; pink meat and distinctive flavor. |
+| <img src="fishies/Salmon.jpeg" width="160"/> | **Salmon Fish** | Rich in omega-3; pink meat and distinctive flavor. |
 | <img src="fishies/Pabda.jpg" width="160"/> | **Pabda Catfish** | Small, soft-boned fish known for its smooth, buttery texture. |
 | <img src="fishies/Silver Pomfret.jpg" width="160"/> | **Silver Pomfret** | Flat, silvery marine fish; mild and tender, prized in Asia. |
 | <img src="fishies/Bombay Duck.jpeg" width="160"/> | **Bombay Duck Fish** | Despite its name, it’s a fish; salty, aromatic, often sun-dried. |
