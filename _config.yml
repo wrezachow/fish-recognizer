@@ -1,0 +1,9 @@
+remote_theme: minimal-mistakes@master
+plugins:
+- jekyll-remote-remote-theme
+
+title: fish-recognizer
+description: Recognizes 10 different types of fishes
+
+Author:
+  name: Wasef Reza Chowdhury
