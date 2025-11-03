@@ -17,3 +17,16 @@ Types:<br/>
 8. Pabda Catfish
 9. Silver Pomfret
 10. Bombay Duck Fish
+
+<p>
+  <a href="fish_recognizer.html"
+     style="display:inline-block;
+            padding:10px 18px;
+            background:#2a7ae2;
+            color:white;
+            border-radius:8px;
+            text-decoration:none;
+            font-weight:bold;">
+    🎣 Try the Fish Recognizer
+  </a>
+</p>
