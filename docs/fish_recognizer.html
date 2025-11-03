@@ -1,26 +1,96 @@
 
----
-title: Fish Recognizer
-layout: page
----
 
-<input id="photo" type="file">
-<div id="results"></div>
-<script type="module">
-    import { Client } from "https://esm.sh/@gradio/client";
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Fish Recognizer</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+            background-color: #f4f4f9;
+            color: #333;
+        }
 
-    const input = document.getElementById("photo");
-    const results = document.getElementById("results");
-    
-    input.addEventListener("change", async () => {
-        const client = await Client.connect("wrezachow/fish-recognizer-1"); // connect to the HuggingFace Space
-            
-        const file = input.files[0]; 
-        const result = await client.predict("/predict", { image: file }); // send the file as image component
-        const label = result.data[0].label;     // Get the most probable label
-        
-        const imgURL = URL.createObjectURL(file);
-        results.innerHTML = `<br/><img src="${imgURL}" width="500"/><p>${label}</p>`;
-      });
-</script>
+        h1 {
+            color: #0056b3;
+            border-bottom: 3px solid #0056b3;
+            padding-bottom: 10px;
+            margin-bottom: 30px;
+        }
 
+        #photo-container {
+            margin-bottom: 30px;
+            padding: 15px;
+            border: 2px dashed #ccc;
+            border-radius: 8px;
+            background-color: #fff;
+        }
+
+        #photo {
+            display: block; /* Ensures the input takes up a new line if needed */
+        }
+
+        #results {
+            margin-top: 20px;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            min-width: 500px; /* Gives a minimum size to the results container */
+        }
+
+        #results img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-bottom: 15px;
+            border: 1px solid #eee;
+        }
+
+        #results p {
+            font-size: 1.5em;
+            font-weight: bold;
+            color: #28a745; /* A vibrant color for the result */
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>🐠 Fish Recognizer</h1>
+
+    <div id="photo-container">
+        <label for="photo">**Upload a Fish Photo:**</label>
+        <input id="photo" type="file">
+    </div>
+
+    <div id="results">
+        <p>Your recognition result will appear here.</p>
+    </div>
+
+
+  <script type="module">
+      import { Client } from "https://esm.sh/@gradio/client";
+
+      const input = document.getElementById("photo");
+      const results = document.getElementById("results");
+      
+      input.addEventListener("change", async () => {
+          const client = await Client.connect("wrezachow/fish-recognizer-1"); // connect to the HuggingFace Space
+              
+          const file = input.files[0]; 
+          const result = await client.predict("/predict", { image: file }); // send the file as image component
+          const label = result.data[0].label;     // Get the most probable label
+          
+          const imgURL = URL.createObjectURL(file);
+          results.innerHTML = `<br/><img src="${imgURL}" width="500"/><p>${label}</p>`;
+        });
+  </script>
+</body>
+</html>

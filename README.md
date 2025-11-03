@@ -26,4 +26,6 @@ I deployed the model with HuggingFace Spaces Gradio App. The implementation is i
 <br/>
 
 # API integration wit GitHub pages
-deployed the model [here](https://wrezachow.github.io/fish-recognizer) in GitHub Pages Website. more info in 'docs' regarding implementation.
+deployed the model [here](https://wrezachow.github.io/fish-recognizer) in GitHub Pages Website. 
+I used GPT-5 to generate some of the HTML and CSS for better visuals when uploading photos.
+You can view the scripts in 'docs' part of the repo.
