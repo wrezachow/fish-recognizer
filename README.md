@@ -22,7 +22,7 @@ Cleaned Data using fast.ai's ImageClassifierCleaner. There was lots of junk imag
 
 # Deploying the model
 I deployed the model with HuggingFace Spaces Gradio App. The implementation is in the 'deployment' folder. It can also be found [here](https://huggingface.co/spaces/wrezachow/fish-recognizer-1) <br/>
-<img srec = "deployment/thumbnail.png" width="300" height="300">
+<img src = "deployment/thumbnail.png">
 <br/>
 
 # API integration wit GitHub pages
