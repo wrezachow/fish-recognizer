@@ -28,5 +28,5 @@ This image is able to specify 10 specific types of fishes that can be found all 
 | <img src="fishies/Salmon.jpg" width="160"/> | **Salmon Fish** | Rich in omega-3; pink meat and distinctive flavor. |
 | <img src="fishies/Pabda.jpg" width="160"/> | **Pabda Catfish** | Small, soft-boned fish known for its smooth, buttery texture. |
 | <img src="fishies/Silver Pomfret.jpg" width="160"/> | **Silver Pomfret** | Flat, silvery marine fish; mild and tender, prized in Asia. |
-| <img src="fishies/Loitta.jpg" width="160"/> | **Bombay Duck Fish** | Despite its name, it’s a fish; salty, aromatic, often sun-dried. |
+| <img src="fishies/Bombay Duck.jpeg" width="160"/> | **Bombay Duck Fish** | Despite its name, it’s a fish; salty, aromatic, often sun-dried. |
 
