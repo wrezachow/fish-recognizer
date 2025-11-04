@@ -116,3 +116,24 @@ h2, h3 { font-weight: 700; }
   opacity: 1;
   text-shadow: none;
 }
+
+/* stop the alternating gray rows from minima */
+.page-content table tr:nth-child(even),
+table tr:nth-child(even) {
+  background: none !important;
+}
+
+/* give all rows a consistent dark background */
+.page-content table tr,
+table tr {
+  background: #1e293b !important;
+  color: #e2e8f0 !important;
+}
+
+/* optional: make header stand out */
+.page-content table th,
+table th {
+  background: #0f172a !important;
+  color: #93c5fd !important;
+  font-weight: 700;
+}
