@@ -15,7 +15,7 @@ This image is able to specify 10 specific types of fishes that can be found all 
 <br/>
 
 ## The Overview of types of fishes
-## 🐟 Fish Types Overview
+## Fish Types Overview
 
 | Image | Name | Description |
 |:------:|:-----|:-------------|

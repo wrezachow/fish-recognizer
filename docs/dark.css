@@ -97,3 +97,22 @@ a:hover {
   color: #5eead4;
   border-bottom-color: #5eead4;
 }
+
+/* Headings on Minima (Markdown # ## ### etc.) */
+h1, h2, h3, h4, h5, h6 {
+  color: #93c5fd;        /* soft blue that pops on #0f172a */
+  opacity: 1;
+  text-shadow: none;
+}
+
+/* Optional: tweak sizes/weight if Minima feels too thin */
+h1 { font-weight: 800; }
+h2, h3 { font-weight: 700; }
+
+/* If Minima’s wrappers add specificity, force it: */
+.page-content h1, .page-content h2, .page-content h3,
+.page-content h4, .page-content h5, .page-content h6 {
+  color: #93c5fd;
+  opacity: 1;
+  text-shadow: none;
+}

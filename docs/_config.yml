@@ -1,5 +1,5 @@
-remote_theme:  daviddarnes/alembic@main
-plugins:
+theme:  minima
+plugins: []
 
 
 title: fish-recognizer
