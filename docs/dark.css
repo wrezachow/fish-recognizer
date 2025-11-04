@@ -1,0 +1,88 @@
+/* 🌙 Dark Mode Theme for Fish Recognizer */
+
+body {
+  background-color: #0f172a; /* dark navy background */
+  color: #e2e8f0; /* soft light text */
+  font-family: "Inter", system-ui, -apple-system, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 2rem;
+}
+
+h1, h2, h3, h4, strong {
+  color: #93c5fd; /* soft blue headings */
+}
+
+a {
+  color: #60a5fa;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+a:hover {
+  color: #93c5fd;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  background-color: #1e293b;
+  color: #e2e8f0;
+  margin-top: 1rem;
+}
+
+th, td {
+  border: 1px solid #334155;
+  padding: 10px 14px;
+}
+
+th {
+  background-color: #0f172a;
+  color: #93c5fd;
+}
+
+tr:nth-child(even) {
+  background-color: #1e293b;
+}
+
+img {
+  border-radius: 8px;
+  box-shadow: 0 0 8px rgba(147,197,253,0.3);
+}
+
+#drop-area, #photo-container {
+  border: 2px dashed #3b82f6;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: #1e293b;
+  color: #e2e8f0;
+  text-align: center;
+}
+
+#drop-area.highlight {
+  background-color: #0ea5e9;
+  border-color: #38bdf8;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 16px;
+  background-color: #2563eb;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.button:hover {
+  background-color: #1d4ed8;
+}
+
+#results {
+  background-color: #1e293b;
+  color: #22c55e;
+  font-weight: bold;
+  margin-top: 1rem;
+  padding: 1rem;
+  border-radius: 8px;
+}

@@ -30,3 +30,6 @@ This image is able to specify 10 specific types of fishes that can be found all 
 | <img src="fishies/Silver Pomfret.jpg" width="160"/> | **Silver Pomfret** | Flat, silvery marine fish; mild and tender, prized in Asia. |
 | <img src="fishies/Bombay Duck.jpeg" width="160"/> | **Bombay Duck Fish** | Despite its name, it’s a fish; salty, aromatic, often sun-dried. |
 
+
+
+<link rel="stylesheet" href="dark.css">
