@@ -4,17 +4,19 @@ layout: page
 ---
 
 # An Image Recognizer
-This image is able to specify 10 specific types of fishes that can be found all over the world
-
-<p>
+<p style="font-size: 16px;">
+This image recognizer is able to specify 10 different types of fishes that can be commonly found in South Asia. It is made to aid your journey in buying fish at the bazars of South Asia. 
+</p>
+<br>
+<p style = "font-size: 25px;">
   <a href="south_asian_fish_recognition.html">
-    Try the Recognizer
+    Try it now!
   </a>
 </p>
 
 <br/>
 
-## The Overview of types of fishes
+
 ## Fish Types Overview
 
 | Image | Name | Description |
