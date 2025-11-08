@@ -5,7 +5,7 @@
 <head>
     
 
-    <title>Fish Recognizer</title>
+    <title>South Asian Fish Recognition</title>
     <style>
         body {
             font-family: 'Arial', sans-serif;
@@ -67,7 +67,7 @@
 </head>
 <body>
 
-    <h1>Fish Recognizer</h1>
+    <h1>South Asian Fish Recognition</h1>
 
     <div id="photo-container">
         <label for="photo">Upload a Fish Photo:</label>
@@ -86,7 +86,7 @@
       const results = document.getElementById("results");
       
       input.addEventListener("change", async () => {
-          const client = await Client.connect("wrezachow/fish-recognizer-1"); // connect to the HuggingFace Space
+          const client = await Client.connect("wrezachow/south-asian-fish-recognition"); // connect to the HuggingFace Space
               
           const file = input.files[0]; 
           const result = await client.predict("/predict", { image: file }); // send the file as image component
