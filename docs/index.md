@@ -7,8 +7,8 @@ layout: page
 This image is able to specify 10 specific types of fishes that can be found all over the world
 
 <p>
-  <a href="fish_recognizer.html">
-    Try the Fish Recognizer
+  <a href="south-asian-fish-recognition.html">
+    Try the Recognizer
   </a>
 </p>
 
