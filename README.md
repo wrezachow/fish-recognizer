@@ -44,7 +44,12 @@ I deployed the model with HuggingFace Spaces Gradio App. The implementation is i
 # API integration wit GitHub pages
 deployed the model [here](https://github.com/wrezachow/south-asian-fish-recognition) in GitHub Pages Website. 
 I used LLMs to generate some of the HTML and CSS for better visuals when uploading photos.
-You can view the scripts in 'docs' part of the repo.
+You can view the scripts in 'docs' part of the repo. [Try](https://wrezachow.github.io/south-asian-fish-recognition/)
 
 ### Home page
+<img src="deployment/home.png">
+<br>
+
+### The Recognizer in Action
+<img src="deployment/recognizer-trial.png">
 
