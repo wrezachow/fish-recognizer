@@ -2,8 +2,8 @@ theme:  minima
 plugins: []
 
 
-title: fish-recognizer
-description: Recognizes 10 different types of fishes
+title: south-asian-fish-recognition
+description: Recognizes 10 different types of fishes common in South Asia
 
 Author:
   name: Wasef Reza Chowdhury
